@@ -1,0 +1,6 @@
+How to use this program
+
+You may need these:
+1 . n29: The data you will test.
+2 . class_list: The values of classes of all the road_number, which you test from the historic data.
+3 . prior_poison_matrix: The values of 'deta' .
