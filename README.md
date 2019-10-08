@@ -54,7 +54,7 @@ limitations under the License.
 
 ### Members:
 * Tianyu Li ([@](https://github.com/Heyedanlty)[Heyedanlty](https://github.com/Heyedanlty)), Beihang University (BUAA)
-* Zhijun Chen ([@CZJ726](https://github.com/CZJ726)), Hunan Unversity
+* Zhijun Chen ([@CZJ726](https://github.com/CZJ726)), Hunan University
 * Yurui Chang, Sichuan University
 
 ### Tutor:
