@@ -2,4 +2,7 @@ lass_list.txt
 current_poison_matrix.txt
 prior_poison_matrix.txt
 total.csv
+result/*
+result1/*
+*_cut/*
 
