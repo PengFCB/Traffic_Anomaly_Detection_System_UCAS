@@ -7,9 +7,20 @@ import K_Means
 import nmf_sklearn
 import probability
 import numpy as np
+import os
+
+
+def check_dic():
+    path_list = ['final_test_cut', 'test_csv_cut', 'training_csv_cut', 'result', 'result1']
+
+    for path in path_list:
+        if not os.path.exists('./data/'+path):
+            os.mkdir('./data/'+path)
 
 
 def total():
+    check_dic()
+
     csv_dealer.csv_deal_to_file("./data/training_csv/",no_total=1,to_addr="./data/training_csv_cut")
     csv_dealer.csv_deal_to_file('./data/test_csv/',no_total=1,to_addr='./data/test_csv_cut')
     csv_dealer.csv_deal_to_file('./data/final_test/',no_total=1,to_addr='./data/final_test_cut')
