@@ -24,7 +24,7 @@ The OSM number of roads are listed in ./data/result
 
 Due to the slow reaction of the OpenStreetMap API Server, a static map data has put inside the project and using by the system, which may lead a mismatch mistake. However, an API moudle is provided in the source code. Using the given moudle can solve this problem.
 
-Now, the source code will run whole process in the system. To use the system efficiently, you may run only following codes in the main function:
+Now, the source code will run whole process in the system. To use the system efficiently, you may run only following codes in the main function (You should run the whole system at least one time to generate some required data before doing this):
 ```
 get_Sit.run()
 ```
